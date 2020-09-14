@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+    
+    <title>Pradytia</title>
+</head>
+<body>
+
+    <div>
+        <table class="table table-bordered table-hover" style="width:100%" id="product_table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama_Barang</th>
+                <th>Kode_Barang</th>
+                <th>Jumlah_Barang</th>
+                <th>Tanggal</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+<!-- DataTables -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+  <script>
+
+    $(document).ready(function () {
+
+        $('#product_table').DataTable({
+
+            ajax: {
+                url: "http://localhost:8085/Invent-test/product/get-product-list",
+                method: "GET",
+                dataSrc: 'value'
+            },
+            columns: [
+                { "data": "ID" },
+                { "data": "nama_barang" },
+                { "data": "kode_barang" },
+                { "data": "jumlah_barang" },
+                { "data": "tanggal" }
+        ]
+        });
+
+    });
+</script>
+</body>
+</html>

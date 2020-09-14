@@ -1,0 +1,35 @@
+Jawaban no 1 & 4
+
+1.
+
+a. CREATE TABLE `db_invent_test`.`product` (
+  `id` INT(10) NOT NULL,
+  `nama_barang` VARCHAR(200) NOT NULL,
+  `kode_barang` VARCHAR(50) NOT NULL,
+  `jumlah_barang` INT(10) NOT NULL,
+  `tanggal` DATE NOT NULL,
+  PRIMARY KEY (`id`));
+
+b. INSERT INTO product (id , nama_barang, kode_barang, jumlah_barang, tanggal)
+	VALUES
+	(1, 'kopiko', '001', 1, '2020-02-01'),
+	(2, 'kopiko', '001', 4, '2020-02-02'),
+	(3, 'mentos', '002', 3, '2020-02-01'),
+	(4, 'mentos', '002', 7, '2020-02-05'),
+	(5, 'relaxa', '003', 7, '2020-02-01'),
+	(6, 'relaxa', '003', 2, '2020-02-02');
+
+
+4. SELECT TOP 1 kode_barang, jumlah_barang, tanggal FROM product ORDER BY tanggal DESC
+
+5. Step untuk upload / update github 
+
+ git init
+ git add .
+ git commit -m "first commit"
+ git remote add origin https://github.com/pradytia/test-invent.git
+ git push -u origin master (jika ngepush)
+ git pull -u origin master (jika update)
+                
+
+
