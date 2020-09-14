@@ -16,7 +16,7 @@ public class ProductAdapter {
         CachedRowSet rowSet =  null;
 
         try{
-            sql = "SELECT * FROM tbl_product";
+            sql = "SELECT * FROM product";
 
             rowSet = DatabaseAdapter.getExecute(sql);
 

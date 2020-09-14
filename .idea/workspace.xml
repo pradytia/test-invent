@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed171501-9179-403c-b6d3-aaf9db91a7f1" name="Default Changelist" comment="" />
+    <list default="true" id="ed171501-9179-403c-b6d3-aaf9db91a7f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/ProductAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/ProductAdapter.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,6 +111,7 @@
       <workItem from="1600063461665" duration="2770000" />
       <workItem from="1600066444211" duration="1304000" />
       <workItem from="1600068190054" duration="274000" />
+      <workItem from="1600068840156" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;change the context&quot;">
       <created>1592890675227</created>
